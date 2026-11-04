@@ -24,7 +24,7 @@ ul{margin:0;padding:0}
 .skip{position:absolute;left:-999px;top:8px;background:var(--blue);color:#fff;padding:8px 14px;border-radius:8px;z-index:100}
 .skip:focus{left:8px}
 :focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:6px}
-.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
 
 /* ---------- Buttons ---------- */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:46px;padding:0 22px;border-radius:10px;font:500 15.5px/1 "IBM Plex Sans",system-ui,sans-serif;border:1px solid transparent;transition:background .25s,border-color .25s,color .25s,transform .25s var(--ease);white-space:nowrap;cursor:pointer}
@@ -136,7 +136,7 @@ figcaption{margin-top:14px;font-size:14px;color:var(--muted);text-align:center}
 .steps li{position:relative;padding-top:56px}
 .steps li::before{counter-increment:s;content:counter(s,decimal-leading-zero);position:absolute;top:0;left:0;font-size:15px;font-weight:600;color:var(--blue);width:40px;height:40px;border:1.5px solid var(--blue-b);border-radius:50%;display:flex;align-items:center;justify-content:center}
 .steps li::after{content:"";position:absolute;top:20px;left:52px;right:-28px;height:2px;background:repeating-linear-gradient(90deg,var(--blue-b) 0 7px,transparent 7px 14px);background-size:28px 2px;animation:flowx 1.4s linear infinite}
-.steps li:last-child::after{display:none}
+.steps li:last-child::after,.steps li:nth-child(4n)::after{display:none}
 @keyframes flowx{to{background-position:28px 0}}
 .steps h3{font-size:19px;letter-spacing:-.01em}
 .steps p{margin-top:8px;color:var(--muted);font-size:15.5px}
@@ -167,7 +167,7 @@ figcaption{margin-top:14px;font-size:14px;color:var(--muted);text-align:center}
 .compare .icon{width:18px;height:18px;vertical-align:-3px;margin-right:6px}
 .compare .yes{color:var(--green)}
 .compare .no{color:var(--faint)}
-.compare-wrap{overflow-x:auto}
+.compare-wrap{overflow-x:auto;position:relative;-webkit-overflow-scrolling:touch}
 
 /* Pricing */
 .plans{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;list-style:none;align-items:stretch}
@@ -247,12 +247,12 @@ form.form{display:grid;grid-template-columns:1fr 1fr;gap:20px}
   .footer-grid{grid-template-columns:repeat(3,1fr)}
   .footer-brand{grid-column:1/-1}
   .steps{grid-template-columns:repeat(2,1fr)}
-  .steps li:nth-child(2)::after{display:none}
+  .steps li:nth-child(2n)::after{display:none}
 }
 @media (max-width:920px){
   .burger{display:flex;margin-left:auto}
   .nav-actions .btn,.nav-actions .lang{display:none}
-  .menu{position:fixed;inset:72px 0 auto 0;flex-direction:column;align-items:stretch;background:#fff;border-bottom:1px solid var(--border);padding:12px var(--gutter) 24px;gap:2px;max-height:calc(100vh - 72px);overflow:auto;display:none}
+  .menu{position:fixed;inset:72px 0 auto 0;flex-direction:column;align-items:stretch;background:#fff;border-bottom:1px solid var(--border);padding:12px var(--gutter) 24px;gap:2px;max-height:calc(100vh - 72px);max-height:calc(100dvh - 72px);overflow:auto;overscroll-behavior:contain;display:none}
   .nav-toggle:checked ~ .menu{display:flex}
   .menu > li > a,.menu summary{padding:14px 8px;font-size:17px;justify-content:space-between}
   .mega{position:static;transform:none;width:auto;border:0;padding:0 0 8px;grid-template-columns:1fr;animation:none}
@@ -276,6 +276,23 @@ form.form{display:grid;grid-template-columns:1fr 1fr;gap:20px}
   .footer-grid{grid-template-columns:1fr 1fr}
   .hero-cta .btn{width:100%}
   .cta{padding:88px 0}
+  /* Compact comparison table: all plan columns visible, first column pinned while swiping */
+  .compare{font-size:14px;min-width:420px}
+  .compare th,.compare td{padding:14px 8px}
+  .compare td:first-child,.compare th:first-child{position:sticky;left:0;background:#fff;z-index:1;width:36%;padding-left:0}
+  .compare .icon{margin-right:0}
+  /* Icon-only plan comparison: fit every plan column on screen without swiping */
+  .compare:has(.sr){min-width:0}
+  .compare:has(.sr) th:not(:first-child),.compare:has(.sr) td:not(:first-child){text-align:center;padding-left:2px;padding-right:2px}
+  .compare:has(.sr) thead th{font-size:12px}
+  .plan{padding:28px 22px}
+  .plan .for{min-height:0}
+  .faq summary{font-size:17px;padding:22px 2px}
+  /* Comfortable tap targets in the footer */
+  .footer{padding-top:56px}
+  .footer ul{gap:2px}
+  .footer ul a{display:inline-block;padding:7px 0}
+  .footer-bottom{flex-direction:column;gap:6px}
 }
 /* Wide illustrations stay legible on phones: swipe horizontally */
 @media (max-width:640px){
@@ -307,5 +324,24 @@ form.form{display:grid;grid-template-columns:1fr 1fr;gap:20px}
   .hero.has-bg .lead{margin:22px auto 0}
   .hero.has-bg .hero-cta,.hero.has-bg .crumbs{justify-content:center}
 }
+/* Landscape tablets and small laptops: keep hero copy and background illustration from overlapping */
+@media (min-width:961px) and (max-width:1400px){
+  .hero-bg{width:52vw}
+  .hero.has-bg .hero-copy{max-width:min(600px,calc(48vw - var(--gutter)))}
+  .hero.has-bg .hero-copy::before{inset:-40px -40px -40px -32px}
+}
 @media (prefers-reduced-motion:reduce){.hero-bg{animation:none}}
 .crumbs{padding:0}
+
+/* ---------- HTML sitemap ---------- */
+.sitemap{display:grid;grid-template-columns:repeat(3,1fr);gap:56px 44px}
+.sitemap section h2{font-size:21px;display:flex;align-items:center;gap:10px;letter-spacing:-.015em;padding-bottom:14px;border-bottom:1px solid var(--border)}
+.sitemap section h2 .icon{color:var(--blue)}
+.sitemap ul{list-style:none;margin-top:8px}
+.sitemap li a{display:block;padding:12px 0;border-bottom:1px solid var(--line);color:var(--text)}
+.sitemap li a:hover{color:var(--blue)}
+.sitemap li a strong{display:block;font-weight:500;font-size:16px}
+.sitemap li a span{display:block;color:var(--muted);font-size:14px;line-height:1.45;margin-top:2px}
+.sitemap + .alt{margin-top:56px;padding-top:28px;border-top:1px solid var(--border);color:var(--muted);font-size:15px}
+@media (max-width:1080px){.sitemap{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:640px){.sitemap{grid-template-columns:1fr;gap:40px}}

@@ -15,7 +15,9 @@ assets/img/es|en/*.svg → ilustraciones animadas sin bordes ni fondos (tipograf
 assets/img/og/*.png → imagen para compartir (Open Graph / Twitter) por página, 1200×630
 assets/brand/ → logo y favicons extraídos de la plataforma
 assets/fonts/ → IBM Plex Sans
-sitemap.xml (hreflang + imágenes), robots.txt, site.webmanifest, favicon.ico
+sitemap.xml → índice de sitemaps · sitemap-es.xml y sitemap-en.xml (hreflang es / es-MX / en / en-US / x-default + imágenes)
+mapa-del-sitio.html, en/sitemap.html → mapa del sitio en HTML (enlazado desde el pie de cada página)
+robots.txt, site.webmanifest, favicon.ico, .htaccess (redirección pomgt.com → www.pomgt.com, HTTPS, 404 por idioma, caché)
 ```
 
 ## SEO en cada página
@@ -26,7 +28,9 @@ Esencial **USD 49 / mes** · Profesional **USD 299 / mes** · Enterprise **a la 
 
 ## Antes de publicar
 - `contacto@pomgt.com` es un marcador; cambia el correo y, si usas un servicio de formularios, el `action` del `<form>` en `contacto.html` y `en/contact.html`.
-- Configura el servidor para mostrar `404.html` (y `en/404.html`).
+- Configura el servidor para mostrar `404.html` (y `en/404.html`). En Apache/LiteSpeed ya lo hace `.htaccess`.
+- Dominio canónico: **https://www.pomgt.com** (con www). Redirige `pomgt.com` → `www.pomgt.com` con 301 (incluido en `.htaccess`; en Netlify, Vercel o Cloudflare configúralo en el panel).
+- En Google Search Console y Bing Webmaster Tools registra la propiedad `https://www.pomgt.com` y envía `https://www.pomgt.com/sitemap.xml`.
 - Datos de las ilustraciones ficticios. Empresa de ejemplo: *Forja Norte* (planta de autopartes). Clientes: Motriz Autopartes, Ejes del Pacífico, Hidráulica Sonora, Frenos Sierra, Tecnoforja Bajío, Carrocerías Delta, Ensambles Norte. Productos: soporte de motor SM-220, eje de transmisión, mangueta delantera, carcasa de aluminio, brida de acero, polea de cigüeñal. Máquinas: centro de maquinado CNC-08, torno CNC TC-02, celda de soldadura robótica SR-02, cabina de pintura PT-03, prensa hidráulica PH-05, estación CMM MI-01, estación de empaque EM-01.
 
 ## Imágenes por página y sección

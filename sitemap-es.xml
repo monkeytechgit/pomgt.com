@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<!-- POMGT · Español (México) -->
+  <url>
+    <loc>https://www.pomgt.com/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-hero-gestion-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-flujo-cliente-pedido-orden-producto.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-tablero-control-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-mapa-planta-2d-maquinas.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-gestion-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-display-operador-tablet.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-orden-produccion-pdf-firmas.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-estructura-fabricacion-arbol-materiales.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-rutas-fabricacion-secuencia.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-se-adapta-a-tu-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-orden-produccion-pdf-trazabilidad.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-estructura-fabricacion-materiales.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-catalogo-materiales-inventario.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-pedidos-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-monitoreo-multi-dispositivo.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-home.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pomgt.com/modulos.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/modulos.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/modulos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/modules.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/modules.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/modulos.html"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-gestion-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-tablero-control-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-mapa-planta-2d-maquinas.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-display-operador-tablet.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-orden-produccion-pdf-trazabilidad.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-rutas-fabricacion-secuencia.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-estructura-fabricacion-materiales.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-catalogo-materiales-inventario.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-pedidos-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-modules.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pomgt.com/modulos/dashboard-de-produccion.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/modulos/dashboard-de-produccion.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/modulos/dashboard-de-produccion.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/modules/production-dashboard.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/modules/production-dashboard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/modulos/dashboard-de-produccion.html"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-dashboard-indicadores-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-dashboard-produccion-semanal.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-dashboard-capacidad-maquinas.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-dashboard-vencimientos-alertas.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-gestion-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-mapa-planta-2d-maquinas.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-display-operador-tablet.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-dashboard.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pomgt.com/modulos/ordenes-de-produccion.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/modulos/ordenes-de-produccion.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/modulos/ordenes-de-produccion.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/modules/production-orders.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/modules/production-orders.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/modulos/ordenes-de-produccion.html"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-gestion-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-produccion-kanban-ordenes.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-orden-produccion-indicadores.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-orden-produccion-operaciones.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-display-operador-tablet.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-rutas-fabricacion-secuencia.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-orden-produccion-pdf-trazabilidad.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-production.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pomgt.com/modulos/mapa-de-planta.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/modulos/mapa-de-planta.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/modulos/mapa-de-planta.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/modules/plant-floor-map.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/modules/plant-floor-map.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/modulos/mapa-de-planta.html"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-mapa-planta-2d-maquinas.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-mapa-planta-estados-maquinas.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-mapa-planta-ordenes-por-fila.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-mapa-planta-maquina-en-vivo.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-tablero-control-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-display-operador-tablet.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-rutas-fabricacion-secuencia.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-map.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pomgt.com/modulos/display-de-operador.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/modulos/display-de-operador.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/modulos/display-de-operador.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/modules/operator-display.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/modules/operator-display.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/modulos/display-de-operador.html"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-display-operador-tablet.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-display-operador-materiales-verificados.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-display-operador-firma-registros.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-gestion-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-mapa-planta-2d-maquinas.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-orden-produccion-pdf-trazabilidad.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-operator.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pomgt.com/modulos/documentos-y-ordenes-pdf.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/modulos/documentos-y-ordenes-pdf.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/modulos/documentos-y-ordenes-pdf.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/modules/documents-and-pdf-orders.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/modules/documents-and-pdf-orders.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/modulos/documentos-y-ordenes-pdf.html"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-orden-produccion-pdf-trazabilidad.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-orden-produccion-pdf-firmas.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-documentos-organizados-por-orden.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-trazabilidad-actividad-orden.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-gestion-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-display-operador-tablet.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-pedidos-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-documents.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pomgt.com/modulos/rutas-de-fabricacion.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/modulos/rutas-de-fabricacion.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/modulos/rutas-de-fabricacion.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/modules/manufacturing-routings.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/modules/manufacturing-routings.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/modulos/rutas-de-fabricacion.html"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-ruta-fabricacion-pasos-maquinas.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-rutas-fabricacion-secuencia.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-ruta-fabricacion-tipos-materiales.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-estructura-fabricacion-materiales.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-gestion-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-mapa-planta-2d-maquinas.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-routing.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pomgt.com/modulos/estructuras-de-fabricacion.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/modulos/estructuras-de-fabricacion.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/modulos/estructuras-de-fabricacion.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/modules/bill-of-materials.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/modules/bill-of-materials.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/modulos/estructuras-de-fabricacion.html"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-estructura-fabricacion-arbol-materiales.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-estructura-fabricacion-materiales.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-estructura-fabricacion-costos-versiones.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-rutas-fabricacion-secuencia.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-catalogo-materiales-inventario.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-gestion-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-bom.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pomgt.com/modulos/productos-y-materiales.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/modulos/productos-y-materiales.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/modulos/productos-y-materiales.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/modules/products-and-materials.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/modules/products-and-materials.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/modulos/productos-y-materiales.html"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-catalogo-materiales-inventario.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-materiales-existencias-inventario.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-producto-especificaciones-tecnicas.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-catalogo-productos.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-estructura-fabricacion-materiales.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-pedidos-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-rutas-fabricacion-secuencia.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-catalog.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pomgt.com/modulos/clientes-y-pedidos.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/modulos/clientes-y-pedidos.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/modulos/clientes-y-pedidos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/modules/customers-and-sales-orders.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/modules/customers-and-sales-orders.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/modulos/clientes-y-pedidos.html"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-pedido-lineas-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-cliente-indicadores-contactos.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-pedidos-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-registro-clientes.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-gestion-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-catalogo-materiales-inventario.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-orden-produccion-pdf-trazabilidad.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-sales.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pomgt.com/beneficios.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/beneficios.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/beneficios.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/benefits.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/benefits.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/beneficios.html"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-monitoreo-multi-dispositivo.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-resultados-indicadores.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-dashboard-indicadores-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-produccion-kanban-ordenes.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-display-operador-firma-registros.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-pedido-lineas-ordenes-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-trazabilidad-actividad-orden.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-se-adapta-a-tu-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-benefits.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pomgt.com/industrias.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/industrias.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/industrias.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/industries.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/industries.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/industrias.html"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-se-adapta-a-tu-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-ruta-fabricacion-pasos-maquinas.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-estructura-fabricacion-arbol-materiales.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-mapa-planta-estados-maquinas.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-industries.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pomgt.com/precios.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/precios.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/precios.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/pricing.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/pricing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/precios.html"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-dashboard-indicadores-produccion.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-pricing.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pomgt.com/contacto.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/contacto.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/contacto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/contacto.html"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/es/pomgt-display-operador-tablet.svg</image:loc></image:image>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-contact.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pomgt.com/mapa-del-sitio.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pomgt.com/mapa-del-sitio.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.pomgt.com/mapa-del-sitio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pomgt.com/en/sitemap.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.pomgt.com/en/sitemap.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pomgt.com/mapa-del-sitio.html"/>
+    <image:image><image:loc>https://www.pomgt.com/assets/img/og/es-home.png</image:loc></image:image>
+  </url>
+</urlset>

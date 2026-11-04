@@ -1,4 +1,8 @@
+# POMGT · https://www.pomgt.com
 User-agent: *
 Allow: /
 
+# Índice de sitemaps (español + inglés) / Sitemap index (Spanish + English)
 Sitemap: https://www.pomgt.com/sitemap.xml
+Sitemap: https://www.pomgt.com/sitemap-es.xml
+Sitemap: https://www.pomgt.com/sitemap-en.xml

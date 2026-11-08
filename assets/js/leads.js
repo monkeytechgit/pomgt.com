@@ -8,7 +8,7 @@
     emailjs: {
       serviceId: 'service_mr6qhfy',
       templateId: 'template_y4y0gl8',
-      publicKey: '' // ← EmailJS › Account › General › Public Key
+      publicKey: '5vTFdcXJ0G3y7ZaPs' // EmailJS › Account › General › Public Key
     },
     supabase: {
       url: 'https://ocydhmnlomnibdruinhb.supabase.co',
@@ -92,8 +92,8 @@
       '</div></fieldset>' +
       '<div class="field full"><label for="' + p + 't">' + T.message + '</label><textarea id="' + p + 't" name="process_problem" rows="4" maxlength="4000" placeholder="' + esc(T.messagePh) + '"></textarea></div>' +
       '<div class="hp" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>' +
-      '<div class="lead-actions full"><button class="btn btn-primary" type="submit"><span>' + T.submit + '</span>' + ICON.send + '</button><small>' + T.privacy + '</small></div>' +
-      '<p class="lead-fail full" role="alert" hidden></p>';
+      '<p class="lead-fail full" role="alert" hidden></p>' +
+      '<div class="lead-actions full"><button class="btn btn-primary" type="submit"><span>' + T.submit + '</span>' + ICON.send + '</button><small>' + T.privacy + '</small></div>';
     f.dataset.t0 = Date.now();
     f.addEventListener('submit', onSubmit);
     f.addEventListener('input', function (e) { var fl = e.target.closest('.field'); if (fl && fl.classList.contains('invalid')) validateField(e.target); });

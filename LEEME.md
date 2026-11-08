@@ -211,8 +211,8 @@ Esencial **USD 49 / mes** · Profesional **USD 299 / mes** · Enterprise **a la 
 
 ## Formulario de demo (modal) · EmailJS + Supabase
 - `assets/js/leads.js` abre el formulario como **modal** (`<dialog>`) desde cualquier botón *Solicitar demo / Request a demo / Contacto*; en `contacto.html` y `en/contact.html` el mismo formulario aparece dentro de la página. Desde `precios.html` el plan elegido se preselecciona y el lead se guarda con `source = 'cotizador'`. También se abre con `#demo` en la URL (ej. `https://www.pomgt.com/#demo`).
-- Cada envío: **1)** inserta en Supabase `public.contact_leads` (full_name, company, email, phone, process_problem, current_impact, industry, quote_summary, lang, page_url, source) y **2)** envía el correo con EmailJS (`service_mr6qhfy`, `template_y4y0gl8`; variables `title, nombre, empresa, correo, telefono, producto, cantidad, entrega, descripcion, reply_to`). Si cualquiera de los dos funciona, el usuario ve la confirmación.
-- **Pendiente:** pega tu *Public Key* de EmailJS en `assets/js/leads.js → CONFIG.emailjs.publicKey` (EmailJS › Account › General). Sin ella solo se guarda en Supabase.
+- Cada envío: **1)** inserta en Supabase `public.contact_leads` (full_name, company, email, phone, process_problem, current_impact, industry, quote_summary, lang, page_url, source) y **2)** envía el correo con EmailJS (`service_mr6qhfy`, `template_y4y0gl8`; variables `title, nombre, empresa, correo, telefono, producto, cantidad, entrega, descripcion, reply_to`). Si cualquiera de los dos funciona, el usuario ve la confirmación. El botón **Enviar solicitud** queda fijo al pie del modal y en móviles el formulario muestra 2 campos por fila.
+- EmailJS ya está configurado (Public Key en `assets/js/leads.js → CONFIG.emailjs.publicKey`). El destinatario del correo se define en la plantilla `template_y4y0gl8` dentro de EmailJS.
 - En EmailJS › Account › Security puedes limitar los envíos a `www.pomgt.com`.
 - Supabase: la tabla debe permitir `INSERT` al rol `anon` (ya verificado) y **no** `SELECT`, para que nadie pueda leer los leads con la llave pública.
 - Anti-spam: campo trampa oculto y tiempo mínimo de llenado.
